@@ -1,0 +1,7 @@
+{
+  "appId": "in.th.zack.sy",
+  "appName": "testApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
