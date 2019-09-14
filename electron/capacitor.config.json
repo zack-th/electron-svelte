@@ -1,6 +1,6 @@
 {
   "appId": "in.th.zack.sy",
-  "appName": "testApp",
+  "appName": "Svelte Application",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www"

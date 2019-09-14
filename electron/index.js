@@ -16,16 +16,135 @@ let useSplashScreen = true;
 // Create simple menu for easy devtools access, and for demo
 const menuTemplateDev = [
   {
-    label: 'Options',
+    label: 'เมนู',
     submenu: [
       {
-        label: 'Open Dev Tools',
+        label: 'Open Dev Tools 1',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 2',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 3',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 4',
         click() {
           mainWindow.openDevTools();
         },
       },
     ],
   },
+  {
+    label: 'เมนู',
+    submenu: [
+      {
+        label: 'Open Dev Tools 1',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 2',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 3',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 4',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },
+    ],
+  },
+  {
+    label: 'เมนู',
+    submenu: [
+      {
+        label: 'Open Dev Tools 1',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 2',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 3',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 4',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },
+    ],
+  },
+  {
+    label: 'เมนู',
+    submenu: [
+      {
+        label: 'Open Dev Tools 1',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 2',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 3',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 4',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },
+    ],
+  },
+  {
+    label: 'เมนู',
+    submenu: [
+      {
+        label: 'Open Dev Tools 1',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 2',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 3',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },{
+        label: 'Open Dev Tools 4',
+        click() {
+          mainWindow.openDevTools();
+        },
+      },
+    ],
+  }
 ];
 
 async function createWindow () {
