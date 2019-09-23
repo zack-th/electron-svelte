@@ -1,7 +1,8 @@
 {
   "appId": "in.th.zack.sy",
-  "appName": "Svelte Application",
+  "appName": "testApp",
   "bundledWebRuntime": false,
   "npmClient": "npm",
-  "webDir": "www"
+  "webDir": "www",
+  "linuxAndroidStudioPath": "/var/lib/snapd/snap/bin/android-studio"
 }

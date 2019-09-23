@@ -13,6 +13,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "@capacitor/android": "^1.2.1",
     "@capacitor/cli": "^1.2.0",
     "@capacitor/core": "^1.2.0",
     "chart.js": "^2.8.0",
@@ -22,6 +23,7 @@
   "scripts": {
     "build": "rollup -c",
     "start:win": "npm run build && npm run cp:build && npx cap open electron",
+    "start:android": "npx cap sync && npx cap copy && npx cap open android",
     "cp:build": "cp -r public/* electron/app",
     "autobuild": "rollup -c -w",
     "dev": "npm run postinstall && run-p start:dev autobuild",
