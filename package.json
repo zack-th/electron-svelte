@@ -23,7 +23,7 @@
   "scripts": {
     "build": "rollup -c",
     "start:win": "npm run build && npm run cp:build && npx cap open electron",
-    "start:android": "npx cap sync && npx cap copy && npx cap open android",
+    "start:android": "cp -r public/* www && npx cap sync && npx cap copy && npx cap open android",
     "cp:build": "cp -r public/* electron/app",
     "autobuild": "rollup -c -w",
     "dev": "npm run postinstall && run-p start:dev autobuild",
